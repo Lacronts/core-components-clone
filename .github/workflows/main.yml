@@ -26,14 +26,14 @@ jobs:
     - name: Publish storybook
       run: |
         cd ./storybook-demo
-        git push -q -f "https://core-ds-bot:${{ secrets.BOT_AUTH_TOKEN }}@github.com/core-ds/core-components.git" master:gh-pages
+        git push -q -f "https://Lacronts:${{ secrets.MY_AUTH_TOKEN }}@github.com/Lacronts/core-components-clone.git" master:gh-pages
 
     # Ищем открытый PR
     - name: Find open PR
       uses: jwalton/gh-find-current-pr@v1
       id: find_pr
       with:
-        github-token: ${{ secrets.BOT_AUTH_TOKEN }}
+        github-token: ${{ secrets.MY_AUTH_TOKEN }}
 
     # Если нашли открытый PR, то добавляем коммент с ссылкой на демку.
     # storybook_url заполняется в demo-build.js
@@ -41,7 +41,7 @@ jobs:
       if: success() && steps.find_pr.outputs.number
       uses: peter-evans/create-or-update-comment@v1
       with:
-        token: ${{ secrets.BOT_AUTH_TOKEN }}
+        token: ${{ secrets.MY_AUTH_TOKEN }}
         issue-number: ${{ steps.find_pr.outputs.pr }}
         body: |
           Собрана новая [демка](${{ steps.demo_build.outputs.storybook_url }}).
