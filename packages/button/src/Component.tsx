@@ -152,7 +152,7 @@ export const Button = React.forwardRef<HTMLAnchorElement | HTMLButtonElement, Bu
                 },
                 className,
             ),
-            'data-test-id': dataTestId,
+            'data-test-id': dataTestId || null,
         };
 
         const buttonChildren = (
