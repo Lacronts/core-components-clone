@@ -1,0 +1,17 @@
+addReviewers: true
+
+reviewers:
+    - EGNKupava
+    - blackraydev
+    - Oladii
+    - Heymdall
+    - Artess999
+    - stepancar
+    - NatalyaZ
+    - YozhEzhi
+    - denisx
+
+skipKeywords:
+    - wip
+
+numberOfReviewers: 0

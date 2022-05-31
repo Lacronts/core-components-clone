@@ -1,0 +1,48 @@
+Компонент для установки расстояния между компонентами.
+
+### Примеры
+
+Автоматический перенос строки.
+
+```tsx live
+<Space direction='horizontal' wrap>
+    <Button>Над вишней в цвету</Button>
+    <Button>Спряталась за облака</Button>
+    <Button>Скромница луна.</Button>
+    <Button>(с) Мацуо Басе</Button>
+    <Button>Над вишней в цвету</Button>
+    <Button>Спряталась за облака</Button>
+    <Button>Скромница луна.</Button>
+    <Button>(с) Мацуо Басе</Button>
+    <Button>Над вишней в цвету</Button>
+    <Button>Спряталась за облака</Button>
+</Space>
+```
+
+Выравнивание.
+
+```tsx live
+<Space direction='horizontal'>
+    <Space align='center'>
+        <Button>Над вишней в цвету</Button>
+        <Button>Спряталась за облака</Button>
+    </Space>
+    <Space align='end'>
+        <Button>Над вишней в цвету</Button>
+        <Button>Спряталась за облака</Button>
+    </Space>
+</Space>
+```
+
+```tsx live
+<Space direction='vertical'>
+    <Space direction='horizontal' align='start'>
+        <Button>Над вишней в цвету</Button>
+        <Button>Спряталась за облака</Button>
+    </Space>
+    <Space direction='horizontal' align='end'>
+        <Button>Над вишней в цвету</Button>
+        <Button>Спряталась за облака</Button>
+    </Space>
+</Space>
+```

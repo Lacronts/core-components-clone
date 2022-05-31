@@ -1,0 +1,19 @@
+@import '../../../../themes/src/default.css';
+@import '../../vars.css';
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    & > * {
+        flex-shrink: 0;
+    }
+}

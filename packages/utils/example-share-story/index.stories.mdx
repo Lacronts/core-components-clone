@@ -1,0 +1,36 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs';
+
+import { Example } from 'storybook-addon-live-examples';
+
+export const defaultExample = `
+function Example() {
+    const [count, setCount] = React.useState(0);
+    return (
+        <div>
+            <p>Вы кликнули {count} раз(а)</p>
+            <Button onClick={() => setCount(count + 1)}>
+                Нажми на меня
+            </Button>
+        </div>
+    );
+}
+render(
+    <Example />
+)
+`;
+
+export const getCode = () => {
+    const code = window.parent.location.search.split('/code=')[1];
+    return code ? decodeURIComponent(code) : defaultExample;
+};
+
+<Meta
+    title='Компоненты/Песочница'
+    parameters={{
+        previewTabs: { canvas: { hidden: true } }
+    }}
+/>
+
+## Песочница
+
+<Example expanded={true} live={true} code={getCode()} language="jsx" />

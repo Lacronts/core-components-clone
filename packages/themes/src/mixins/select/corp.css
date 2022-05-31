@@ -1,0 +1,7 @@
+@define-mixin select-corp {
+    --select-arrow-color: var(--color-light-graphic-secondary);
+
+    /* select mobile footer */
+
+    --select-mobile-footer-border-top: 1px solid var(--color-light-border-primary);
+}
