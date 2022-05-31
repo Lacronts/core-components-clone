@@ -102,26 +102,6 @@ export type ButtonProps = Partial<AnchorButtonProps | NativeButtonProps>;
  */
 export const LOADER_MIN_DISPLAY_INTERVAL = 500;
 
-const logWarning = (view: Required<ComponentProps>['view']) => {
-    if (process.env.NODE_ENV !== 'development') {
-        return;
-    }
-
-    const viewsMap: { [key: string]: string } = {
-        filled: 'secondary',
-        transparent: 'secondary',
-        outlined: 'tertiary',
-    };
-
-    // eslint-disable-next-line no-console
-    console.warn(
-        // eslint-disable-next-line prefer-template
-        `@alfalab/core-components/button: view='${view}' будет удален в следующих мажорных версиях. ` +
-            `Используйте view='${viewsMap[view]}'. Чтобы поменять все кнопки на проекте разом, можно воспользоваться codemod: ` +
-            'npx @alfalab/core-components-codemod --transformers=button-views src/**/*.tsx',
-    );
-};
-
 export const Button = React.forwardRef<HTMLAnchorElement | HTMLButtonElement, ButtonProps>(
     (
         {
@@ -142,10 +122,6 @@ export const Button = React.forwardRef<HTMLAnchorElement | HTMLButtonElement, Bu
         },
         ref,
     ) => {
-        if (['outlined', 'filled', 'transparent'].includes(view)) {
-            logWarning(view);
-        }
-
         const buttonRef = useRef<HTMLElement>(null);
 
         const [focused] = useFocus(buttonRef, 'keyboard');
