@@ -11,7 +11,7 @@ echo $semantic_output
 # Проеряем, что semantic-release зарелизил рут-пакет (пока не знаю, как это можно сделать по-другому)
 if [[ $semantic_output =~ "Publishing version" ]]
 then
-    git remote set-url origin https://Lacront:$GITHUB_TOKEN@github.com/Lacront/core-components-clone.git
+    git remote set-url origin https://Lacronts:$GITHUB_TOKEN@github.com/Lacront/core-components-clone.git
     git checkout master
     git pull origin master --rebase
     git fetch --tags
