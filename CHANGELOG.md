@@ -1,3 +1,18 @@
+# 1.0.0 (2022-05-31)
+
+
+### Bug Fixes
+
+* ci ([#1](https://github.com/Lacronts/core-components-clone/issues/1)) ([f6de161](https://github.com/Lacronts/core-components-clone/commit/f6de161a8f614036ea01e1cb40fdd15a18ba742d))
+* release ([#2](https://github.com/Lacronts/core-components-clone/issues/2)) ([a0eda75](https://github.com/Lacronts/core-components-clone/commit/a0eda7518f1c02cc8599288aa0f4efa07b7350db))
+* **button:** fix button props ([#4](https://github.com/Lacronts/core-components-clone/issues/4)) ([98f1c8c](https://github.com/Lacronts/core-components-clone/commit/98f1c8c6c3d768b36b34ffa10bb05a3b936712f1))
+* **button:** removed deprecaed logwarn ([#3](https://github.com/Lacronts/core-components-clone/issues/3)) ([95f4306](https://github.com/Lacronts/core-components-clone/commit/95f43061c404ff9f28bfba6b094ac51d2396dcd0))
+
+
+### Features
+
+* first commit ([6c433dd](https://github.com/Lacronts/core-components-clone/commit/6c433dd275a46a256a5c851a5a364181d6f57118))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
