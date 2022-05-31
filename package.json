@@ -8,12 +8,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Lacront/core-components-clone.git"
+        "url": "git+https://github.com/Lacronts/core-components-clone.git"
     },
     "bugs": {
-        "url": "https://github.com/Lacront/core-components-clone/issues"
+        "url": "https://github.com/Lacronts/core-components-clone/issues"
     },
-    "homepage": "https://github.com/Lacront/core-components-clone#readme",
+    "homepage": "https://github.com/Lacronts/core-components-clone#readme",
     "scripts": {
         "build": "./bin/build.sh",
         "start": "start-storybook -p 9009 -c .storybook -s ./.storybook/public",
