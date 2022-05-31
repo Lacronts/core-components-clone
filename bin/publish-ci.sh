@@ -22,7 +22,6 @@ then
     else
         lerna version --conventional-commits --no-commit-hooks --yes --force-git-tag
         git push origin master
-        lerna publish from-git --yes
     fi
 else
     exit 0
