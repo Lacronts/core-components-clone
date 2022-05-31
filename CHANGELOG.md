@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Lacronts/core-components-clone/compare/v1.0.0...v1.0.1) (2022-05-31)
+
+
+### Bug Fixes
+
+* **button:** return null prop ([#5](https://github.com/Lacronts/core-components-clone/issues/5)) ([21af327](https://github.com/Lacronts/core-components-clone/commit/21af327316c4020271f3a1ae546fe738f1d49761))
+
 # 1.0.0 (2022-05-31)
 
 
