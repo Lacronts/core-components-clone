@@ -16,12 +16,12 @@ mkdir -p dist
 copy_css="yarn copyfiles -u 1 \"src/**/*.{css,js}\" dist"
 copy_package="yarn copyfiles package.json dist"
 lerna exec \
-    --scope @alfalab/core-components-vars \
-    --scope @alfalab/core-components-themes \
+    --scope lacront-core-components-vars \
+    --scope lacront-core-components-themes \
     -- "$copy_css && $copy_package"
 
 # собираю пакет themes
-lerna exec --scope @alfalab/core-components-themes -- node $(pwd)/bin/build-themes.js
+lerna exec --scope lacront-core-components-themes -- node $(pwd)/bin/build-themes.js
 
 # собираю все подпакеты с компонентами
 lerna exec --concurrency $CONCURRENCY \
@@ -32,8 +32,8 @@ lerna exec --concurrency $CONCURRENCY \
 # копирую собранные css пакеты в корневой пакет
 copy_to_root="cp -rp dist/ ../../dist/\${PWD##*/}"
 lerna exec \
-    --scope @alfalab/core-components-vars \
-    --scope @alfalab/core-components-themes \
+    --scope lacront-core-components-vars \
+    --scope lacront-core-components-themes \
     -- $copy_to_root
 
 # копирую package.json в сборку корневого пакета
