@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.2.0 (2022-05-31)
+
+
+### Bug Fixes
+
+* **button:** change loader max time ([#7](https://github.com/Lacronts/core-components-clone/issues/7)) ([e89d895](https://github.com/Lacronts/core-components-clone/commit/e89d89541a1faf53b08dfd879d9ba6a45bee8aed))
+* **button:** change loader max time again ([#8](https://github.com/Lacronts/core-components-clone/issues/8)) ([60cd7ee](https://github.com/Lacronts/core-components-clone/commit/60cd7eef46d7d6340a679f04313e31ae91c11eab))
+* **button:** change loader min time ([#6](https://github.com/Lacronts/core-components-clone/issues/6)) ([5dc0764](https://github.com/Lacronts/core-components-clone/commit/5dc0764fc729688e32f1c66de86104864707ed72))
+* **button:** fix button props ([#4](https://github.com/Lacronts/core-components-clone/issues/4)) ([98f1c8c](https://github.com/Lacronts/core-components-clone/commit/98f1c8c6c3d768b36b34ffa10bb05a3b936712f1))
+* **button:** removed deprecaed logwarn ([#3](https://github.com/Lacronts/core-components-clone/issues/3)) ([95f4306](https://github.com/Lacronts/core-components-clone/commit/95f43061c404ff9f28bfba6b094ac51d2396dcd0))
+* **button:** return null prop ([#5](https://github.com/Lacronts/core-components-clone/issues/5)) ([21af327](https://github.com/Lacronts/core-components-clone/commit/21af327316c4020271f3a1ae546fe738f1d49761))
+
+
+### Features
+
+* first commit ([6c433dd](https://github.com/Lacronts/core-components-clone/commit/6c433dd275a46a256a5c851a5a364181d6f57118))
+
+
+
+
+
 ## [5.1.1](https://github.com/core-ds/core-components/compare/@alfalab/core-components-button@5.1.0...@alfalab/core-components-button@5.1.1) (2022-02-15)
 
 **Note:** Version bump only for package @alfalab/core-components-button

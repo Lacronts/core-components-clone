@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 6.3.0 (2022-05-31)
+
+
+### Bug Fixes
+
+* **button:** change loader min time ([#6](https://github.com/Lacronts/core-components-clone/issues/6)) ([5dc0764](https://github.com/Lacronts/core-components-clone/commit/5dc0764fc729688e32f1c66de86104864707ed72))
+
+
+### Features
+
+* first commit ([6c433dd](https://github.com/Lacronts/core-components-clone/commit/6c433dd275a46a256a5c851a5a364181d6f57118))
+
+
+
+
+
 ## [6.2.1](https://github.com/core-ds/core-components/compare/@alfalab/core-components-tabs@6.2.0...@alfalab/core-components-tabs@6.2.1) (2022-03-28)
 
 **Note:** Version bump only for package @alfalab/core-components-tabs
