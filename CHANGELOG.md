@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/Lacronts/core-components-clone/compare/v1.0.4...v1.0.5) (2022-06-01)
+
+
+### Bug Fixes
+
+* **button:** change loader max time again ([#9](https://github.com/Lacronts/core-components-clone/issues/9)) ([d2e83b9](https://github.com/Lacronts/core-components-clone/commit/d2e83b92b30a4b8e40850308d7e106e7ab83eb46))
+
 ## [1.0.4](https://github.com/Lacronts/core-components-clone/compare/v1.0.3...v1.0.4) (2022-05-31)
 
 
