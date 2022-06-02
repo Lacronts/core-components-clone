@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.3](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-button@5.2.2...lacront-core-components-button@5.2.3) (2022-06-02)
+
+
+### Bug Fixes
+
+* **button:** change loader max time again ([#11](https://github.com/Lacronts/core-components-clone/issues/11)) ([e8710b1](https://github.com/Lacronts/core-components-clone/commit/e8710b1470040f242df21ed2a8b8a851a0050215))
+
+
+
+
+
 ## [5.2.2](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-button@5.2.1...lacront-core-components-button@5.2.2) (2022-06-02)
 
 
