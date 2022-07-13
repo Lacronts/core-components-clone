@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/Lacronts/core-components-clone/compare/v1.0.11...v1.0.12) (2022-07-13)
+
+
+### Bug Fixes
+
+* **button:** fixed int3 ([#16](https://github.com/Lacronts/core-components-clone/issues/16)) ([399fe47](https://github.com/Lacronts/core-components-clone/commit/399fe4747088a3f253e6441a1f71c6330b7b39df))
+
 ## [1.0.11](https://github.com/Lacronts/core-components-clone/compare/v1.0.10...v1.0.11) (2022-07-13)
 
 
