@@ -5,8 +5,8 @@
     "gitHead": "f054fef20200664c65e2501ef1f916c555cdf05d",
     "keywords": [],
     "license": "MIT",
-    "main": "dist/index.js",
-    "module": "./dist/esm/index.js",
+    "main": "index.js",
+    "module": "./esm/index.js",
     "files": [
         "dist"
     ],
