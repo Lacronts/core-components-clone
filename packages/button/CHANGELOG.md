@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.5](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-button@5.2.4...lacront-core-components-button@5.2.5) (2022-07-13)
+
+
+### Bug Fixes
+
+* **button:** fixed loader interval ([#13](https://github.com/Lacronts/core-components-clone/issues/13)) ([8679e8b](https://github.com/Lacronts/core-components-clone/commit/8679e8b61fa46a0c1da2ae909d99851830c876c9))
+
+
+
+
+
 ## [5.2.4](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-button@5.2.3...lacront-core-components-button@5.2.4) (2022-07-13)
 
 
