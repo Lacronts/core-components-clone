@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.6.1](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-typography@2.6.0...lacront-core-components-typography@2.6.1) (2022-07-13)
+
+
+### Bug Fixes
+
+* publish ([#12](https://github.com/Lacronts/core-components-clone/issues/12)) ([523e5e8](https://github.com/Lacronts/core-components-clone/commit/523e5e845af11d5fc7924a38d5e1de41f78037b5))
+
+
+
+
+
 # 2.6.0 (2022-05-31)
 
 
