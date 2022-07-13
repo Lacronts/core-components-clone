@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/Lacronts/core-components-clone/compare/v1.0.8...v1.0.9) (2022-07-13)
+
+
+### Bug Fixes
+
+* **button:** fixed loader interval ([#13](https://github.com/Lacronts/core-components-clone/issues/13)) ([8679e8b](https://github.com/Lacronts/core-components-clone/commit/8679e8b61fa46a0c1da2ae909d99851830c876c9))
+
 ## [1.0.8](https://github.com/Lacronts/core-components-clone/compare/v1.0.7...v1.0.8) (2022-07-13)
 
 
