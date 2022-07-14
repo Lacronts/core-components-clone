@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/Lacronts/core-components-clone/compare/v1.1.6...v1.1.7) (2022-07-14)
+
+
+### Bug Fixes
+
+* bumb classnames ([#24](https://github.com/Lacronts/core-components-clone/issues/24)) ([4a66252](https://github.com/Lacronts/core-components-clone/commit/4a66252480fefc9d415cbde1ee8b80fabbef5ce2))
+
 ## [1.1.6](https://github.com/Lacronts/core-components-clone/compare/v1.1.5...v1.1.6) (2022-07-14)
 
 
