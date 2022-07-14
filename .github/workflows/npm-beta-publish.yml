@@ -34,3 +34,4 @@ jobs:
         run: yarn pub:beta-ci
         env:
           VERSION: ${{ github.event.inputs.version }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
