@@ -30,8 +30,12 @@ jobs:
         env:
           BUILD_CONCURRENCY: 5
 
+      - name: Set NPM Token
+        uses: filipstefansson/set-npm-token-action@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+
       - name: Publish
-        run: yarn pub:beta-ci
+        run: npm run pub:beta-ci
         env:
           VERSION: ${{ github.event.inputs.version }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
