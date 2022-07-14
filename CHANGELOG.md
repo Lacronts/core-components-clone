@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Lacronts/core-components-clone/compare/v1.1.0...v1.1.1) (2022-07-14)
+
+
+### Bug Fixes
+
+* permission denied error ([afc8708](https://github.com/Lacronts/core-components-clone/commit/afc8708babca20afc3eed4d25f21ddb1497bd852))
+
 # [1.1.0](https://github.com/Lacronts/core-components-clone/compare/v1.0.12...v1.1.0) (2022-07-14)
 
 
