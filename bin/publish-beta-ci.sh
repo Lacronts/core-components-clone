@@ -7,6 +7,6 @@ cd dist
 
 npm version "$VERSION" --no-git-tag-version
 
-npm publish --tag beta
+npm publish --userconfig "../.npmrc" --tag beta
 
 echo "Опубликована версия $VERSION"
