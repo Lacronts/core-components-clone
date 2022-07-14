@@ -1,3 +1,11 @@
+## [1.1.4](https://github.com/Lacronts/core-components-clone/compare/v1.1.3...v1.1.4) (2022-07-14)
+
+
+### Bug Fixes
+
+* publish ([19ba577](https://github.com/Lacronts/core-components-clone/commit/19ba5773e13e65a53e4122d4657f3c9093da897c))
+* publish ([454e446](https://github.com/Lacronts/core-components-clone/commit/454e446d35549be9696987ce2d61025f8ffc959f))
+
 ## [1.1.3](https://github.com/Lacronts/core-components-clone/compare/v1.1.2...v1.1.3) (2022-07-14)
 
 
