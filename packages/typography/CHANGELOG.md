@@ -182,4 +182,5 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.4.2](https://github.com/core-ds/core-components/compare/@alfalab/core-components-typography@1.4.1...@alfalab/core-components-typography@1.4.2) (2021-03-04)
 
+
 **Note:** Version bump only for package @alfalab/core-components-typography
