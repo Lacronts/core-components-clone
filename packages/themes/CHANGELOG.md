@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.2.1](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-themes@8.2.0...lacront-core-components-themes@8.2.1) (2022-07-15)
+
+
+### Bug Fixes
+
+* bump packages version ([#27](https://github.com/Lacronts/core-components-clone/issues/27)) ([957602e](https://github.com/Lacronts/core-components-clone/commit/957602e937584f85f2161059743fdc7166f62ad6))
+
+
+
+
+
 # 8.2.0 (2022-05-31)
 
 

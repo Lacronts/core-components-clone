@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.3](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-keyboard-focusable@3.1.2...lacront-core-components-keyboard-focusable@3.1.3) (2022-07-15)
+
+
+### Bug Fixes
+
+* bump packages version ([#27](https://github.com/Lacronts/core-components-clone/issues/27)) ([957602e](https://github.com/Lacronts/core-components-clone/commit/957602e937584f85f2161059743fdc7166f62ad6))
+
+
+
+
+
 ## [3.1.2](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-keyboard-focusable@3.1.1...lacront-core-components-keyboard-focusable@3.1.2) (2022-07-15)
 
 
