@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.12](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-button@5.2.11...lacront-core-components-button@5.2.12) (2022-07-15)
+
+
+### Bug Fixes
+
+* bump all packages ([#26](https://github.com/Lacronts/core-components-clone/issues/26)) ([5f073b3](https://github.com/Lacronts/core-components-clone/commit/5f073b3da496b939dd2b93bfa1c5d0fd5564f1a8))
+
+
+
+
+
 ## [5.2.11](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-button@5.2.8...lacront-core-components-button@5.2.11) (2022-07-14)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.3.2](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-tabs@6.3.1...lacront-core-components-tabs@6.3.2) (2022-07-15)
+
+
+### Bug Fixes
+
+* bumb classnames ([#24](https://github.com/Lacronts/core-components-clone/issues/24)) ([4a66252](https://github.com/Lacronts/core-components-clone/commit/4a66252480fefc9d415cbde1ee8b80fabbef5ce2))
+* bump all packages ([#26](https://github.com/Lacronts/core-components-clone/issues/26)) ([5f073b3](https://github.com/Lacronts/core-components-clone/commit/5f073b3da496b939dd2b93bfa1c5d0fd5564f1a8))
+
+
+
+
+
 ## [6.3.1](https://github.com/Lacronts/core-components-clone/compare/lacront-core-components-tabs@6.3.0...lacront-core-components-tabs@6.3.1) (2022-07-13)
 
 
