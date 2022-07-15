@@ -46,6 +46,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
+
 * **bottom-sheet:** update-bottom-sheet ([#1025](https://github.com/core-ds/core-components/issues/1025)) ([26fa9aa](https://github.com/core-ds/core-components/commit/26fa9aab68bebf0f7093a38bc0f18a9b596ccf37)), closes [#1032](https://github.com/core-ds/core-components/issues/1032)
 * **modal:** update styles ([#1024](https://github.com/core-ds/core-components/issues/1024)) ([fdf2cdc](https://github.com/core-ds/core-components/commit/fdf2cdca9f785b27cd5d3998245a34d42e1240d1))
 
